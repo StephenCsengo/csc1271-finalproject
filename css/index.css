@@ -14,6 +14,15 @@ h2, h3, h4 {
     margin-bottom: 0.5rem;
 }
 
+a {
+    text-decoration: none;
+    color: #13d0d8;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #04f5ff;
+}
 header, footer {
     background-color: #38003c;
     width: 100%;
@@ -22,8 +31,8 @@ header, footer {
     padding: 2rem 0;
 }
 
-footer h3 {
-     color: #fff;
+footer fieldset {
+     border: none;
 }
 
 form {
@@ -60,6 +69,38 @@ input:focus-visible {
 
 label {
     margin-right: 0.5rem;
+}
+
+caption {
+    font-size: 1.17rem;
+    color: #38003c;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+thead tr {
+    background-color: #c2c2c2;
+}
+
+td, th {
+    padding: 0.5rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+    
+}
+
+figure {
+    margin-bottom: 1rem;
 }
 
 .team-cards {
@@ -110,8 +151,37 @@ label {
     transform: translate(3px, 3px);
     box-shadow: 0.1rem 0.1rem #0c6f72;
 }
+
+.container {
+    background: white;
+    margin: auto;
+    width: 90%;
+}
+
+.team-view-title {
+    text-align: center;
+    padding: 3rem 0 2rem;
+}
+.team-view {
+    padding: 0 3rem 3rem;
+    text-align: center;
+    display: grid;
+}
+
+.team-view article {
+    margin: 0.5rem;
+}
+
+.small {
+    font-size: 0.85rem;
+}
+
 @media (min-width: 750px) {
     .team-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .team-view {
         grid-template-columns: repeat(2, 1fr);
     }
 }
