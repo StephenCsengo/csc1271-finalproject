@@ -5,11 +5,8 @@ body {
     font-family: 'Barlow', Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: #38003c;
-    width: 100%;
-    text-align: center;
-    color: #fff;
+h1 {
+    font-weight: 600;
 }
 
 h2, h3, h4 {
@@ -17,10 +14,54 @@ h2, h3, h4 {
     margin-bottom: 0.5rem;
 }
 
-h1 {
-    font-weight: 600;
-    padding: 2rem;
+header, footer {
+    background-color: #38003c;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 0;
 }
+
+footer h3 {
+     color: #fff;
+}
+
+form {
+    margin: 1rem 0 2rem;
+}
+
+button {
+    text-align: center;
+    background: #13d0d8;
+    color: #38003c;
+    border: none;
+    padding: 0.75rem 1rem;
+    margin: 1rem auto;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0.25rem 0.25rem #0c6f72;
+}
+
+hr {
+    border-color: #250027;
+    margin-bottom: 2rem;
+}
+
+input {
+    border: 0;
+    padding: 0.75rem;
+    margin-right: 1.25rem;
+    border-bottom: 2px solid #13d0d8;
+}
+
+input:focus-visible {
+    outline: #13d0d8 auto 1px;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+
 .team-cards {
     padding: 2rem;
     display: grid;
@@ -34,12 +75,11 @@ h1 {
     display: grid;
     gap: 1rem;
     box-shadow: 0.4rem 0.4rem #298653;
-
 }
 
 .card img {
     height: 10rem;
-    margin: 1rem auto;
+    margin: 2rem auto 0;
 
 }
 
@@ -51,16 +91,24 @@ h1 {
     text-align: center;
 }
 
-
-.card-content button {
+.card-content a {
+    text-align: center;
     background: #13d0d8;
     color: #38003c;
     border: none;
     padding: 1rem 2rem;
-    border-radius: 6px;
     margin: 1rem auto;
     display: block;
+    width: 70%;
+    transition: all 0.3s;
     cursor: pointer;
+    box-shadow: 0.25rem 0.25rem #0c6f72;
+}
+
+.card-content a:hover, button:hover {
+    background: #04f5ff;
+    transform: translate(3px, 3px);
+    box-shadow: 0.1rem 0.1rem #0c6f72;
 }
 @media (min-width: 750px) {
     .team-cards {
