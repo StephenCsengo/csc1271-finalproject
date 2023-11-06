@@ -51,8 +51,9 @@ nav {
   color: white;
   padding: 2em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 nav ul {
@@ -152,10 +153,12 @@ figure {
   position: relative;
   text-align: center;
 }
+#intro p,
+#intro a {
+  color: var(--green-300);
+}
 .centered {
   position: absolute;
-  top: 30%;
-  left: 40%;
   color: white;
   text-shadow: 5px 5px 20px black;
   font-size: 2.5em;
@@ -271,12 +274,22 @@ button:hover {
   display: block;
 }
 @media (min-width: 750px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .team-cards {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .team-view {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .centered {
+    top: 30%;
+    left: 40%;
   }
 }
 
