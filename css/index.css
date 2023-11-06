@@ -1,193 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,400&display=swap");
 
+:root {
+  --purple-100: hsl(296, 100%, 30%);
+  --purple-200: hsl(296, 100%, 12%);
+  --purple-300: hsl(296, 100%, 7%);
+  --blue-100: hsl(182, 100%, 51%);
+  --blue-200: hsl(182, 84%, 46%);
+  --blue-300: hsl(182, 81%, 25%);
+  --green-100: hsl(147, 63%, 62%);
+  --green-200: hsl(147, 43%, 52%);
+  --green-300: hsl(147, 43%, 24%);
+}
 body {
-    background-color: #51b980;
-    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+  background-color: var(--green-200);
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-h2, h3, h4 {
-    color:#38003c;
-    margin-bottom: 0.5rem;
+h2,
+h3,
+h4 {
+  color: var(--purple-200);
+  margin-bottom: 0.5rem;
 }
 
 a {
-    text-decoration: none;
-    color: #13d0d8;
-    transition: all 0.3s;
+  text-decoration: none;
+  color: var(--blue-200);
+  transition: all 0.3s;
 }
 
 a:hover {
-    color: #04f5ff;
+  color: var(--blue-100);
 }
-header, footer {
-    background-color: #38003c;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    padding: 2rem 0;
+header,
+footer {
+  background-color: var(--purple-200);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
 }
 
 footer fieldset {
-     border: none;
+  border: none;
 }
 
 form {
-    margin: 1rem 0 2rem;
+  margin: 1rem 0 2rem;
 }
 
 button {
-    text-align: center;
-    background: #13d0d8;
-    color: #38003c;
-    border: none;
-    padding: 0.75rem 1rem;
-    margin: 1rem auto;
-    transition: all 0.3s;
-    cursor: pointer;
-    box-shadow: 0.25rem 0.25rem #0c6f72;
+  text-align: center;
+  background: var(--blue-200);
+  color: #38003c;
+  border: none;
+  padding: 0.75rem 1rem;
+  margin: 1rem auto;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0.25rem 0.25rem var(--blue-300);
 }
 
 hr {
-    border-color: #250027;
-    margin-bottom: 2rem;
+  border-color: var(--purple-300);
+  margin-bottom: 2rem;
 }
 
 input {
-    border: 0;
-    padding: 0.75rem;
-    margin-right: 1.25rem;
-    border-bottom: 2px solid #13d0d8;
+  border: 0;
+  padding: 0.75rem;
+  margin-right: 1.25rem;
+  border-bottom: 2px solid var(--blue-200);
 }
 
 input:focus-visible {
-    outline: #13d0d8 auto 1px;
+  outline: var(--blue-200) auto 1px;
 }
 
 label {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 caption {
-    font-size: 1.17rem;
-    color: #38003c;
-    margin-bottom: 0.5rem;
+  font-size: 1.17rem;
+  color: var(--purple-200);
+  margin-bottom: 0.5rem;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 tr {
-    text-align: center;
+  text-align: center;
 }
 
 thead tr {
-    background-color: #c2c2c2;
+  background-color: #c2c2c2;
 }
 
-td, th {
-    padding: 0.5rem;
+td,
+th {
+  padding: 0.5rem;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #e9e9e9;
-    
+  background-color: #e9e9e9;
 }
 
 figure {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .team-cards {
-    padding: 2rem;
-    display: grid;
+  padding: 2rem;
+  display: grid;
 }
 
 .card {
-    background-color: #fff;
-    color: darkolivegreen;
-    max-width: 1000px;
-    margin: 1rem;
-    display: grid;
-    gap: 1rem;
-    box-shadow: 0.4rem 0.4rem #298653;
+  background-color: #fff;
+  color: var(--purple-300);
+  max-width: 1000px;
+  margin: 1rem;
+  display: grid;
+  gap: 1rem;
+  box-shadow: 0.4rem 0.4rem var(--green-300);
 }
 
 .card img {
-    height: 10rem;
-    margin: 2rem auto 0;
-
+  height: 10rem;
+  margin: 2rem auto 0;
+  filter: grayscale(100%);
+  transition: filter 0.25s ease-in;
 }
 
+.card:hover img {
+  filter: grayscale(0%);
+}
 .card-content {
-    padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .card-content h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .card-content a {
-    text-align: center;
-    background: #13d0d8;
-    color: #38003c;
-    border: none;
-    padding: 1rem 2rem;
-    margin: 1rem auto;
-    display: block;
-    width: 70%;
-    transition: all 0.3s;
-    cursor: pointer;
-    box-shadow: 0.25rem 0.25rem #0c6f72;
+  text-align: center;
+  background: var(--blue-200);
+  color: var(--purple-200);
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  display: block;
+  width: 70%;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: 0.25rem 0.25rem var(--blue-300);
 }
 
-.card-content a:hover, button:hover {
-    background: #04f5ff;
-    transform: translate(3px, 3px);
-    box-shadow: 0.1rem 0.1rem #0c6f72;
+.card-content a:hover,
+button:hover {
+  background: var(--blue-100);
+  transform: translate(3px, 3px);
+  box-shadow: 0.1rem 0.1rem var(--blue-300);
 }
 
 .container {
-    background: white;
-    margin: auto;
-    width: 90%;
+  background: white;
+  margin: auto;
+  width: 90%;
 }
 
 .team-view-title {
-    text-align: center;
-    padding: 3rem 0 2rem;
+  text-align: center;
+  padding: 3rem 0 2rem;
 }
 .team-view {
-    padding: 0 3rem 3rem;
-    text-align: center;
-    display: grid;
+  padding: 0 3rem 3rem;
+  text-align: center;
+  display: grid;
 }
 
 .team-view article {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 .small {
-    font-size: 0.85rem;
+  font-size: 0.85rem;
 }
 
 @media (min-width: 750px) {
-    .team-cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .team-view {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .team-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-view {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 900px) {
-    .team-cards {
-        grid-template-columns: repeat(4, 1fr);
-    }
+  .team-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
