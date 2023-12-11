@@ -23,14 +23,14 @@ class Card {
     let groundsLi = document.createElement("li");
     let managerLi = document.createElement("li");
     foundedLi.innerText = `Founded: ${this.founded}`;
-    groundsLi.innerText = `Grounds: ${this.stadium}`;
+    groundsLi.innerText = `Grounds: ${this.stadium.name}`;
     managerLi.innerText = `Manager: ${this.manager}`;
     let a = document.createElement("a");
     a.innerText = "Learn More";
     a.setAttribute("href", this.url);
 
     ul.appendChild(foundedLi);
-    ul.appendChild(groundsLiLi);
+    ul.appendChild(groundsLi);
     ul.appendChild(managerLi);
 
     div.appendChild(h2);
@@ -44,10 +44,28 @@ class Card {
   }
 }
 
-fetch(
-  "https://github.com/StephenCsengo/csc1271-finalproject/blob/main/teams.json"
-)
-  .then((res) => {
-    return res.json();
-  })
-  .then((data) => console.log(data));
+fetch("https://stephencsengo.github.io/csc1271-finalproject/teams.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const teamData = data.teams;
+    addCards(teamData);
+  });
+
+function addCards(teams) {
+  console.log(teams);
+  /*   for (let team of teams) {
+    console.log(team);
+  } */
+  teams.forEach(function (team) {
+    let cardHolder = document.querySelector(".team-cards");
+    const card = new Card(
+      team.name,
+      team.logo,
+      team.founded,
+      team.stadium,
+      team.manager,
+      team.url
+    );
+    cardHolder.append(card.makeElement());
+  });
+}
