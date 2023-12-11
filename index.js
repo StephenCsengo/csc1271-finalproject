@@ -69,3 +69,7 @@ function addCards(teams) {
     cardHolder.append(card.makeElement());
   });
 }
+
+const path = window.location.pathname;
+teamName = path.substring(path.lastIndexOf("/") + 1);
+console.log(teamName);

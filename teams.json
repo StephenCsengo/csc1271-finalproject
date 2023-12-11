@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Arsenal",
       "founded": 1886,
-      "url": "./teampage/arsenal.html",
+      "url": "/arsenal.html",
       "stadium": {
         "name": "Emirates Stadium",
         "address": {
@@ -12,10 +12,10 @@
           "city": "London, UK",
           "zip": "N7 7AJ"
         },
-        "image": "../img/stadiums/arsenal-stadium.jpg"
+        "image": "/arsenal-stadium.jpg"
       },
       "manager": "Mikel Arteta",
-      "logo": "./img/logos/Arsenal_FC.png",
+      "logo": "/Arsenal_FC.png",
       "website": "https://www.arsenal.com/",
       "players": [
         {
@@ -149,7 +149,7 @@
       "id": 2,
       "name": "Aston Villa",
       "founded": 1874,
-      "url": "./teampage/astonvilla.html",
+      "url": "/astonvilla.html",
       "stadium": {
         "name": "Villa Park",
         "address": {
@@ -157,10 +157,10 @@
           "city": "Birmingham, UK",
           "zip": "B6 6HE"
         },
-        "image": "../img/stadiums/astonvilla-stadium.jpg"
+        "image": "/astonvilla-stadium.jpg"
       },
       "manager": "Unai Emery",
-      "logo": "./img/logos/Aston_Villa.png",
+      "logo": "/Aston_Villa.png",
       "website": "https://www.avfc.co.uk/",
       "players": [
         {
@@ -299,7 +299,7 @@
       "id": 3,
       "name": "Bournemouth",
       "founded": 1899,
-      "url": "./teampage/bournemouth.html",
+      "url": "/bournemouth.html",
       "stadium": {
         "name": "Dean Court",
         "address": {
@@ -307,10 +307,10 @@
           "city": "Bournemouth, UK",
           "zip": "BH7 7AF"
         },
-        "image": "../img/stadiums/bournemouth-stadium.jpg"
+        "image": "/bournemouth-stadium.jpg"
       },
       "manager": "Andoni Iraola",
-      "logo": "./img/logos/AFC_Bournemouth.png",
+      "logo": "/AFC_Bournemouth.png",
       "website": "https://www.afcb.co.uk/",
       "players": [
         {
@@ -464,7 +464,7 @@
       "id": 4,
       "name": "Brentford",
       "founded": 1889,
-      "url": "./teampage/brentford.html",
+      "url": "/brentford.html",
       "stadium": {
         "name": "GTech Community Stadium",
         "address": {
@@ -472,10 +472,10 @@
           "city": "Brentford, UK",
           "zip": "TW8 0RU"
         },
-        "image": "../img/stadiums/brentford-stadium.jpg"
+        "image": "/brentford-stadium.jpg"
       },
       "manager": "Thomas Frank",
-      "logo": "./img/logos/Brentford_FC.png",
+      "logo": "/Brentford_FC.png",
       "website": "https://www.brentfordfc.com/en",
       "players": [
         {
@@ -624,7 +624,7 @@
       "id": 5,
       "name": "Brighton Hove & Albion",
       "founded": 1901,
-      "url": "./teampage/brighton.html",
+      "url": "/brighton.html",
       "stadium": {
         "name": "Falmer Stadium",
         "address": {
@@ -632,10 +632,10 @@
           "city": "Brighton, UK",
           "zip": "BN1 9BL"
         },
-        "image": "../img/stadiums/brighton-hove-albion-stadium.jpg"
+        "image": "/brighton-hove-albion-stadium.jpg"
       },
       "manager": "Roberto De Zerbi",
-      "logo": "./img/logos/Brighton_Hove_Albion.png",
+      "logo": "/Brighton_Hove_Albion.png",
       "website": "https://www.brightonandhovealbion.com/",
       "players": [
         {
@@ -774,7 +774,7 @@
       "id": 6,
       "name": "Burnley",
       "founded": 1882,
-      "url": "./teampage/burnley.html",
+      "url": "/burnley.html",
       "stadium": {
         "name": "Turf Moor",
         "address": {
@@ -782,10 +782,10 @@
           "city": "Burnley, UK",
           "zip": "BB10 4BX"
         },
-        "image": "../img/stadiums/burnley-stadium.jpg"
+        "image": "/burnley-stadium.jpg"
       },
       "manager": "Vincent Kompany",
-      "logo": "./img/logos/Burnley_FC.png",
+      "logo": "/Burnley_FC.png",
       "website": "https://www.brentfordfc.com/en",
       "players": [
         {
@@ -959,7 +959,7 @@
       "id": 7,
       "name": "Chelsea",
       "founded": 1905,
-      "url": "./teampage/chelsea.html",
+      "url": "/chelsea.html",
       "stadium": {
         "name": "Stamford Bridge",
         "address": {
@@ -967,10 +967,10 @@
           "city": "London, UK",
           "zip": "SW6 1HS"
         },
-        "image": "../img/stadiums/chelsea-stadium.jpg"
+        "image": "/chelsea-stadium.jpg"
       },
       "manager": "Mauricio Pochettino",
-      "logo": "./img/logos/Chelsea_FC.png",
+      "logo": "/Chelsea_FC.png",
       "website": "https://www.chelseafc.com/en",
       "players": [
         {
@@ -1129,7 +1129,7 @@
       "id": 8,
       "name": "Crystal Palace",
       "founded": 1905,
-      "url": "./teampage/crystalpalace.html",
+      "url": "/crystalpalace.html",
       "stadium": {
         "name": "Selhurst Park",
         "address": {
@@ -1137,10 +1137,10 @@
           "city": "London, UK",
           "zip": "SE25 6PU"
         },
-        "image": "../img/stadiums/crystal-palace-stadium.jpg"
+        "image": "/crystal-palace-stadium.jpg"
       },
       "manager": "Roy Hodgson",
-      "logo": "./img/logos/Crystal_Palace_FC.png",
+      "logo": "/Crystal_Palace_FC.png",
       "website": "https://www.cpfc.co.uk/",
       "players": [
         {
@@ -1279,7 +1279,7 @@
       "id": 9,
       "name": "Everton",
       "founded": 1878,
-      "url": "./teampage/everton.html",
+      "url": "/everton.html",
       "stadium": {
         "name": "Goodison Park",
         "address": {
@@ -1287,10 +1287,10 @@
           "city": "Liverpool, UK",
           "zip": "L4 4EL"
         },
-        "image": "../img/stadiums/everton-stadium.jpg"
+        "image": "/everton-stadium.jpg"
       },
       "manager": "Sean Dyche",
-      "logo": "./img/logos/Everton_FC.png",
+      "logo": "/Everton_FC.png",
       "website": "https://www.evertonfc.com/home",
       "players": [
         {
@@ -1429,7 +1429,7 @@
       "id": 10,
       "name": "Fulham",
       "founded": 1879,
-      "url": "./teampage/fulham.html",
+      "url": "/fulham.html",
       "stadium": {
         "name": "Craven Cottage",
         "address": {
@@ -1437,10 +1437,10 @@
           "city": "London, UK",
           "zip": "SW6 6HH"
         },
-        "image": "../img/stadiums/fulham-stadium.jpg"
+        "image": "/fulham-stadium.jpg"
       },
       "manager": "Marco Silva",
-      "logo": "./img/logos/Fulham_FC.png",
+      "logo": "/Fulham_FC.png",
       "website": "https://www.fulhamfc.com/",
       "players": [
         {
@@ -1579,7 +1579,7 @@
       "id": 11,
       "name": "Liverpool",
       "founded": 1892,
-      "url": "./teampage/liverpool.html",
+      "url": "/liverpool.html",
       "stadium": {
         "name": "Anfield",
         "address": {
@@ -1587,10 +1587,10 @@
           "city": "Liverpool, UK",
           "zip": "L4 0TH"
         },
-        "image": "../img/stadiums/liverpool-stadium.jpg"
+        "image": "/liverpool-stadium.jpg"
       },
       "manager": "Jürgen Klopp",
-      "logo": "./img/logos/Liverpool_FC.png",
+      "logo": "/Liverpool_FC.png",
       "website": "http://www.liverpoolfc.com/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Alisson Becker" },
@@ -1634,7 +1634,7 @@
       "id": 12,
       "name": "Luton Town",
       "founded": 1885,
-      "url": "./teampage/lutontown.html",
+      "url": "/lutontown.html",
       "stadium": {
         "name": "Kenilworth Road",
         "address": {
@@ -1642,10 +1642,10 @@
           "city": "Luton, UK",
           "zip": "LU4 8AW"
         },
-        "image": "../img/stadiums/luton-town-stadium.jpg"
+        "image": "/luton-town-stadium.jpg"
       },
       "manager": "Rob Edwards",
-      "logo": "./img/logos/Luton_Town.png",
+      "logo": "/Luton_Town.png",
       "website": "https://www.lutontown.co.uk/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "James Shea" },
@@ -1688,7 +1688,7 @@
       "id": 13,
       "name": "Manchester City",
       "founded": 1880,
-      "url": "./teampage/manchestercity.html",
+      "url": "/manchestercity.html",
       "stadium": {
         "name": "City of Manchester Stadium",
         "address": {
@@ -1696,10 +1696,10 @@
           "city": "Manchester, UK",
           "zip": "M11 3FF"
         },
-        "image": "../img/stadiums/manchester-city-stadium.jpg"
+        "image": "/manchester-city-stadium.jpg"
       },
       "manager": "Pep Guardiola",
-      "logo": "./img/logos/Manchester_City_FC.png",
+      "logo": "/Manchester_City_FC.png",
       "website": "http://www.mancity.com/",
       "players": [
         { "Number": 2, "Position": "Defender", "Name": "Kyle Walker" },
@@ -1731,7 +1731,7 @@
       "id": 14,
       "name": "Manchester United",
       "founded": 1902,
-      "url": "./teampage/manchesterunited.html",
+      "url": "/manchesterunited.html",
       "stadium": {
         "name": "Old Trafford",
         "address": {
@@ -1739,10 +1739,10 @@
           "city": "Manchester, UK",
           "zip": "M16 0RA"
         },
-        "image": "../img/stadiums/manchester-united-stadium.jpg"
+        "image": "/manchester-united-stadium.jpg"
       },
       "manager": "Erik ten Hag",
-      "logo": "./img/logos/Manchester_United_FC.png",
+      "logo": "/Manchester_United_FC.png",
       "website": "https://www.manutd.com/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Altay Bayındır" },
@@ -1782,7 +1782,7 @@
       "id": 15,
       "name": "Newcastle United",
       "founded": 1892,
-      "url": "./teampage/newcastle.html",
+      "url": "/newcastle.html",
       "stadium": {
         "name": "St. James' Park",
         "address": {
@@ -1790,10 +1790,10 @@
           "city": "Newcastle, UK",
           "zip": "NE1 4ST"
         },
-        "image": "../img/stadiums/newcastle-stadium.jpg"
+        "image": "/newcastle-stadium.jpg"
       },
       "manager": "Eddie Howe",
-      "logo": "./img/logos/Newcastle_United.png",
+      "logo": "/Newcastle_United.png",
       "website": "https://www.nufc.co.uk/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Martin Dúbravka" },
@@ -1847,7 +1847,7 @@
       "id": 16,
       "name": "Nottingham Forest",
       "founded": 1865,
-      "url": "./teampage/nottingham.html",
+      "url": "/nottingham.html",
       "stadium": {
         "name": "City Ground",
         "address": {
@@ -1855,10 +1855,10 @@
           "city": "Nottingham, UK",
           "zip": "NG2 5FR"
         },
-        "image": "../img/stadiums/nottingham-forest-stadium.jpg"
+        "image": "/nottingham-forest-stadium.jpg"
       },
       "manager": "Steve Cooper",
-      "logo": "./img/logos/Nottingham_Forest_FC.png",
+      "logo": "/Nottingham_Forest_FC.png",
       "website": "http://www.nottinghamforest.co.uk/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Matt Turner" },
@@ -1905,7 +1905,7 @@
       "id": 17,
       "name": "Sheffield United",
       "founded": 1889,
-      "url": "./teampage/sheffield.html",
+      "url": "/sheffield.html",
       "stadium": {
         "name": "Bramall Lane",
         "address": {
@@ -1913,10 +1913,10 @@
           "city": "Sheffield, UK",
           "zip": "S2 4QX"
         },
-        "image": "../img/stadiums/sheffield-united-stadium.jpg"
+        "image": "/sheffield-united-stadium.jpg"
       },
       "manager": "Paul Heckingbottom",
-      "logo": "./img/logos/Sheffield_United_FC.png",
+      "logo": "/Sheffield_United_FC.png",
       "website": "https://www.sufc.co.uk/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Adam Davies" },
@@ -1962,7 +1962,7 @@
       "id": 18,
       "name": "Tottenham Hotspur",
       "founded": 1882,
-      "url": "./teampage/tottenham.html",
+      "url": "/tottenham.html",
       "stadium": {
         "name": "Tottenham Hotspur Stadium",
         "address": {
@@ -1970,10 +1970,10 @@
           "city": "London, UK",
           "zip": "N17 0BX"
         },
-        "image": "../img/stadiums/tottenham-stadium.jpg"
+        "image": "/tottenham-stadium.jpg"
       },
       "manager": "Ange Postecoglou",
-      "logo": "./img/logos/Tottenham_Hotspur.png",
+      "logo": "/Tottenham_Hotspur.png",
       "website": "https://www.tottenhamhotspur.com/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Hugo Lloris" },
@@ -2015,7 +2015,7 @@
       "id": 19,
       "name": "West Ham United",
       "founded": 1895,
-      "url": "./teampage/westham.html",
+      "url": "/westham.html",
       "stadium": {
         "name": "London Stadium",
         "address": {
@@ -2023,10 +2023,10 @@
           "city": "London, UK",
           "zip": "E20 2ST"
         },
-        "image": "../img/stadiums/west-ham-stadium.jpg"
+        "image": "/west-ham-stadium.jpg"
       },
       "manager": "David Moyes",
-      "logo": "./img/logos/West_Ham_United_FC.png",
+      "logo": "/West_Ham_United_FC.png",
       "website": "https://www.whufc.com/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "Łukasz Fabiański" },
@@ -2063,7 +2063,7 @@
       "id": 20,
       "name": "Wolverhampton Wanderers",
       "founded": 1877,
-      "url": "./teampage/wolverhampton.html",
+      "url": "/wolverhampton.html",
       "stadium": {
         "name": "Molineux Stadium",
         "address": {
@@ -2071,10 +2071,10 @@
           "city": "Wolverhampton, UK",
           "zip": "WV1 4QR"
         },
-        "image": "../img/stadiums/wolverhampton-stadium.jpg"
+        "image": "/wolverhampton-stadium.jpg"
       },
       "manager": "Gary O'Neil",
-      "logo": "./img/logos/Wolverhampton_Wanderers.png",
+      "logo": "/Wolverhampton_Wanderers.png",
       "website": "https://www.wolves.co.uk/",
       "players": [
         { "Number": 1, "Position": "Goalkeeper", "Name": "José Sá" },
