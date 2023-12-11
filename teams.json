@@ -1,0 +1,2094 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Arsenal",
+      "founded": 1886,
+      "stadium": {
+        "name": "Emirates Stadium",
+        "address": {
+          "street": "Hornsey Rd",
+          "city": "London, UK",
+          "zip": "N7 7AJ"
+        },
+        "image": "../img/stadiums/arsenal-stadium.jpg"
+      },
+      "manager": "Mikel Arteta",
+      "logo": "./img/logos/Arsenal_FC.png",
+      "website": "https://www.arsenal.com/",
+      "players": [
+        {
+          "Number": 1,
+          "Name": "Aaron Ramsdale",
+          "Position": "Goalkeeper"
+        },
+        {
+          "Number": 2,
+          "Name": "William Saliba",
+          "Position": "Defender"
+        },
+        {
+          "Number": 4,
+          "Name": "Ben White",
+          "Position": "Defender"
+        },
+        {
+          "Number": 5,
+          "Name": "Thomas Partey",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 6,
+          "Name": "Gabriel",
+          "Position": "Defender"
+        },
+        {
+          "Number": 7,
+          "Name": "Bukayo Saka",
+          "Position": "Forward"
+        },
+        {
+          "Number": 8,
+          "Name": "Martin Ødegaard",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 9,
+          "Name": "Gabriel Jesus",
+          "Position": "Forward"
+        },
+        {
+          "Number": 10,
+          "Name": "Emile Smith Rowe",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 11,
+          "Name": "Gabriel Martinelli",
+          "Position": "Forward"
+        },
+        {
+          "Number": 12,
+          "Name": "Jurriën Timber",
+          "Position": "Defender"
+        },
+        {
+          "Number": 14,
+          "Name": "Eddie Nketiah",
+          "Position": "Forward"
+        },
+        {
+          "Number": 15,
+          "Name": "Jakub Kiwior",
+          "Position": "Defender"
+        },
+        {
+          "Number": 17,
+          "Name": "Cédric Soares",
+          "Position": "Defender"
+        },
+        {
+          "Number": 18,
+          "Name": "Takehiro Tomiyasu",
+          "Position": "Defender"
+        },
+        {
+          "Number": 19,
+          "Name": "Leandro Trossard",
+          "Position": "Forward"
+        },
+        {
+          "Number": 20,
+          "Name": "Jorginho",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 21,
+          "Name": "Fábio Vieira",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 22,
+          "Name": "David Raya",
+          "Position": "Goalkeeper"
+        },
+        {
+          "Number": 24,
+          "Name": "Reiss Nelson",
+          "Position": "Forward"
+        },
+        {
+          "Number": 25,
+          "Name": "Mohamed Elneny",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 29,
+          "Name": "Kai Havertz",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 31,
+          "Name": "Karl Hein",
+          "Position": "Goalkeeper"
+        },
+        {
+          "Number": 35,
+          "Name": "Oleksandr Zinchenko",
+          "Position": "Defender"
+        },
+        {
+          "Number": 41,
+          "Name": "Declan Rice",
+          "Position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aston Villa",
+      "founded": 1874,
+      "stadium": {
+        "name": "Villa Park",
+        "address": {
+          "street": "Trinity Rd",
+          "city": "Birmingham, UK",
+          "zip": "B6 6HE"
+        },
+        "image": "../img/stadiums/astonvilla-stadium.jpg"
+      },
+      "manager": "Unai Emery",
+      "logo": "./img/logos/Aston-Villa.png",
+      "website": "https://www.avfc.co.uk/",
+      "players": [
+        {
+          "Number": 1,
+          "Name": "Emiliano Martinez",
+          "Position": "Goalkeeper"
+        },
+        {
+          "Number": 2,
+          "Name": "Matty Cash",
+          "Position": "Defender"
+        },
+        {
+          "Number": 3,
+          "Name": "Diego Carlos",
+          "Position": "Defender"
+        },
+        {
+          "Number": 4,
+          "Name": "Ezri Konsa",
+          "Position": "Defender"
+        },
+        {
+          "Number": 5,
+          "Name": "Tyrone Mings",
+          "Position": "Defender"
+        },
+        {
+          "Number": 6,
+          "Name": "Douglas Luiz",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 7,
+          "Name": "John McGinn",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 8,
+          "Name": "Youri Tielemans",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 9,
+          "Name": "Bertrand Traoré",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 10,
+          "Name": "Emiliano Buendía",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 11,
+          "Name": "Ollie Watkins",
+          "Position": "Forward"
+        },
+        {
+          "Number": 12,
+          "Name": "Lucas Digne",
+          "Position": "Defender"
+        },
+        {
+          "Number": 14,
+          "Name": "Pau Torres",
+          "Position": "Defender"
+        },
+        {
+          "Number": 15,
+          "Name": "Àlex Moreno",
+          "Position": "Defender"
+        },
+        {
+          "Number": 16,
+          "Name": "Calum Chambers",
+          "Position": "Defender"
+        },
+        {
+          "Number": 17,
+          "Name": "Clément Lenglet",
+          "Position": "Defender"
+        },
+        {
+          "Number": 19,
+          "Name": "Moussa Diaby",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 22,
+          "Name": "Nicolò Zaniolo",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 24,
+          "Name": "Jhon Durán",
+          "Position": "Forward"
+        },
+        {
+          "Number": 25,
+          "Name": "Robin Olsen",
+          "Position": "Goalkeeper"
+        },
+        {
+          "Number": 30,
+          "Name": "Kortney Hause",
+          "Position": "Defender"
+        },
+        {
+          "Number": 31,
+          "Name": "Leon Bailey",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 32,
+          "Name": "Leander Dendoncker",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 41,
+          "Name": "Jacob Ramsey",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 44,
+          "Name": "Boubacar Kamara",
+          "Position": "Midfielder"
+        },
+        {
+          "Number": 47,
+          "Name": "Tim Iroegbunam",
+          "Position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bournemouth",
+      "founded": 1899,
+      "stadium": {
+        "name": "Dean Court",
+        "address": {
+          "street": "Kings Park",
+          "city": "Bournemouth, UK",
+          "zip": "BH7 7AF"
+        },
+        "image": "../img/stadiums/bournemouth-stadium.jpg"
+      },
+      "manager": "Andoni Iraola",
+      "logo": "./img/logos/AFC-Bournemouth.png",
+      "website": "https://www.afcb.co.uk/",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Neto"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Ryan Fredericks"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Milos Kerkez"
+        },
+        {
+          "Number": 4,
+          "Position": "Midfielder",
+          "Name": "Lewis Cook"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "Lloyd Kelly"
+        },
+        {
+          "Number": 6,
+          "Position": "Defender",
+          "Name": "Chris Mepham"
+        },
+        {
+          "Number": 7,
+          "Position": "Midfielder",
+          "Name": "David Brooks"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Joe Rothwell"
+        },
+        {
+          "Number": 9,
+          "Position": "Forward",
+          "Name": "Dominic Solanke"
+        },
+        {
+          "Number": 10,
+          "Position": "Midfielder",
+          "Name": "Ryan Christie"
+        },
+        {
+          "Number": 11,
+          "Position": "Midfielder",
+          "Name": "Dango Ouattara"
+        },
+        {
+          "Number": 12,
+          "Position": "Goalkeeper",
+          "Name": "Darren Randolph"
+        },
+        {
+          "Number": 13,
+          "Position": "Midfielder",
+          "Name": "Emiliano Marcondes"
+        },
+        {
+          "Number": 14,
+          "Position": "Midfielder",
+          "Name": "Alex Scott"
+        },
+        {
+          "Number": 15,
+          "Position": "Defender",
+          "Name": "Adam Smith"
+        },
+        {
+          "Number": 16,
+          "Position": "Midfielder",
+          "Name": "Marcus Tavernier"
+        },
+        {
+          "Number": 17,
+          "Position": "Midfielder",
+          "Name": "Luis Sinisterra"
+        },
+        {
+          "Number": 18,
+          "Position": "Midfielder",
+          "Name": "Tyler Adams"
+        },
+        {
+          "Number": 19,
+          "Position": "Forward",
+          "Name": "Justin Kluivert"
+        },
+        {
+          "Number": 20,
+          "Position": "Goalkeeper",
+          "Name": "Ionuț Radu"
+        },
+        {
+          "Number": 21,
+          "Position": "Forward",
+          "Name": "Kieffer Moore"
+        },
+        {
+          "Number": 22,
+          "Position": "Midfielder",
+          "Name": "Hamed Traorè"
+        },
+        {
+          "Number": 24,
+          "Position": "Forward",
+          "Name": "Antoine Semenyo"
+        },
+        {
+          "Number": 25,
+          "Position": "Defender",
+          "Name": "Marcos Senesi"
+        },
+        {
+          "Number": 26,
+          "Position": "Midfielder",
+          "Name": "Gavin Kilkenny"
+        },
+        {
+          "Number": 27,
+          "Position": "Defender",
+          "Name": "Illya Zabarnyi"
+        },
+        {
+          "Number": 29,
+          "Position": "Midfielder",
+          "Name": "Philip Billing"
+        },
+        {
+          "Number": 37,
+          "Position": "Defender",
+          "Name": "Max Aarons"
+        },
+        {
+          "Number": 42,
+          "Position": "Goalkeeper",
+          "Name": "Mark Travers"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Brentford",
+      "founded": 1889,
+      "stadium": {
+        "name": "GTech Community Stadium",
+        "address": {
+          "street": "Lionel Rd",
+          "city": "Brentford, UK",
+          "zip": "TW8 0RU"
+        },
+        "image": "../img/stadiums/brentford-stadium.jpg"
+      },
+      "manager": "Thomas Frank",
+      "logo": "./img/logos/Brentford_FC.png",
+      "website": "https://www.brentfordfc.com/en",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Mark Flekken"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Aaron Hickey"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Rico Henry"
+        },
+        {
+          "Number": 4,
+          "Position": "Defender",
+          "Name": "Charlie Goode"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "Ethan Pinnock"
+        },
+        {
+          "Number": 6,
+          "Position": "Midfielder",
+          "Name": "Christian Nørgaard"
+        },
+        {
+          "Number": 7,
+          "Position": "Forward",
+          "Name": "Neal Maupay"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Mathias Jensen"
+        },
+        {
+          "Number": 9,
+          "Position": "Forward",
+          "Name": "Kevin Schade"
+        },
+        {
+          "Number": 10,
+          "Position": "Midfielder",
+          "Name": "Josh Dasilva"
+        },
+        {
+          "Number": 11,
+          "Position": "Forward",
+          "Name": "Yoane Wissa"
+        },
+        {
+          "Number": 13,
+          "Position": "Defender",
+          "Name": "Mathias Jørgensen"
+        },
+        {
+          "Number": 14,
+          "Position": "Midfielder",
+          "Name": "Saman Ghoddos"
+        },
+        {
+          "Number": 15,
+          "Position": "Midfielder",
+          "Name": "Frank Onyeka"
+        },
+        {
+          "Number": 16,
+          "Position": "Defender",
+          "Name": "Ben Mee"
+        },
+        {
+          "Number": 17,
+          "Position": "Forward",
+          "Name": "Ivan Toney"
+        },
+        {
+          "Number": 19,
+          "Position": "Forward",
+          "Name": "Bryan Mbeumo"
+        },
+        {
+          "Number": 20,
+          "Position": "Defender",
+          "Name": "Kristoffer Ajer"
+        },
+        {
+          "Number": 21,
+          "Position": "Goalkeeper",
+          "Name": "Thomas Strakosha"
+        },
+        {
+          "Number": 22,
+          "Position": "Defender",
+          "Name": "Nathan Collins"
+        },
+        {
+          "Number": 23,
+          "Position": "Midfielder",
+          "Name": "Keane Lewis-Potter"
+        },
+        {
+          "Number": 24,
+          "Position": "Midfielder",
+          "Name": "Mikkel Damsgaard"
+        },
+        {
+          "Number": 25,
+          "Position": "Midfielder",
+          "Name": "Myles Peart-Harris"
+        },
+        {
+          "Number": 26,
+          "Position": "Midfielder",
+          "Name": "Shandon Baptiste"
+        },
+        {
+          "Number": 27,
+          "Position": "Midfielder",
+          "Name": "Vitaly Janelt"
+        },
+        {
+          "Number": 30,
+          "Position": "Defender",
+          "Name": "Mads Roerslev"
+        },
+        {
+          "Number": 33,
+          "Position": "Midfielder",
+          "Name": "Yehor Yarmolyuk"
+        },
+        {
+          "Number": 40,
+          "Position": "Goalkeeper",
+          "Name": "Ellery Balcombe"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Brighton Hove & Albion",
+      "founded": 1901,
+      "stadium": {
+        "name": "Falmer Stadium",
+        "address": {
+          "street": "Village Way",
+          "city": "Brighton, UK",
+          "zip": "BN1 9BL"
+        },
+        "image": "../img/stadiums/brighton-hove-albion-stadium.jpg"
+      },
+      "manager": "Roberto De Zerbi",
+      "logo": "./img/logos/Brighton_Hove_Albion.png",
+      "website": "https://www.brightonandhovealbion.com/",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Bart Verbruggen"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Tariq Lamptey"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Igor Julio"
+        },
+        {
+          "Number": 4,
+          "Position": "Defender",
+          "Name": "Adam Webster"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "Lewis Dunk"
+        },
+        {
+          "Number": 6,
+          "Position": "Midfielder",
+          "Name": "James Milner"
+        },
+        {
+          "Number": 7,
+          "Position": "Midfielder",
+          "Name": "Solly March"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Mahmoud Dahoud"
+        },
+        {
+          "Number": 9,
+          "Position": "Forward",
+          "Name": "João Pedro"
+        },
+        {
+          "Number": 10,
+          "Position": "Forward",
+          "Name": "Julio Enciso"
+        },
+        {
+          "Number": 11,
+          "Position": "Midfielder",
+          "Name": "Billy Gilmour"
+        },
+        {
+          "Number": 13,
+          "Position": "Midfielder",
+          "Name": "Pascal Groß"
+        },
+        {
+          "Number": 14,
+          "Position": "Midfielder",
+          "Name": "Adam Lallana"
+        },
+        {
+          "Number": 15,
+          "Position": "Midfielder",
+          "Name": "Jakub Moder"
+        },
+        {
+          "Number": 18,
+          "Position": "Forward",
+          "Name": "Danny Welbeck"
+        },
+        {
+          "Number": 20,
+          "Position": "Midfielder",
+          "Name": "Carlos Baleba"
+        },
+        {
+          "Number": 22,
+          "Position": "Midfielder",
+          "Name": "Kaoru Mitoma"
+        },
+        {
+          "Number": 23,
+          "Position": "Goalkeeper",
+          "Name": "Jason Steele"
+        },
+        {
+          "Number": 24,
+          "Position": "Midfielder",
+          "Name": "Simon Adingra"
+        },
+        {
+          "Number": 28,
+          "Position": "Forward",
+          "Name": "Evan Ferguson"
+        },
+        {
+          "Number": 29,
+          "Position": "Defender",
+          "Name": "Jan Paul van Hecke"
+        },
+        {
+          "Number": 30,
+          "Position": "Defender",
+          "Name": "Pervis Estupiñán"
+        },
+        {
+          "Number": 31,
+          "Position": "Forward",
+          "Name": "Ansu Fati"
+        },
+        {
+          "Number": 34,
+          "Position": "Defender",
+          "Name": "Joël Veltman"
+        },
+        {
+          "Number": 38,
+          "Position": "Goalkeeper",
+          "Name": "Tom McGill"
+        },
+        {
+          "Number": 40,
+          "Position": "Midfielder",
+          "Name": "Facundo Buonanotte"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Burnley",
+      "founded": 1882,
+      "stadium": {
+        "name": "Turf Moor",
+        "address": {
+          "street": "Harry Potts Way",
+          "city": "Burnley, UK",
+          "zip": "BB10 4BX"
+        },
+        "image": "../img/stadiums/burnley-stadium.jpg"
+      },
+      "manager": "Vincent Kompany",
+      "logo": "./img/logos/Burnley_FC.png",
+      "website": "https://www.brentfordfc.com/en",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "James Trafford"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Dara O'Shea"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Charlie Taylor"
+        },
+        {
+          "Number": 4,
+          "Position": "Midfielder",
+          "Name": "Jack Cork"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "Jordan Beyer"
+        },
+        {
+          "Number": 6,
+          "Position": "Defender",
+          "Name": "CJ Egan-Riley"
+        },
+        {
+          "Number": 7,
+          "Position": "Midfielder",
+          "Name": "Jóhann Berg Guðmundsson"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Josh Brownhill"
+        },
+        {
+          "Number": 9,
+          "Position": "Forward",
+          "Name": "Jay Rodriguez"
+        },
+        {
+          "Number": 10,
+          "Position": "Forward",
+          "Name": "Manuel Benson"
+        },
+        {
+          "Number": 14,
+          "Position": "Defender",
+          "Name": "Connor Roberts"
+        },
+        {
+          "Number": 15,
+          "Position": "Forward",
+          "Name": "Nathan Redmond"
+        },
+        {
+          "Number": 16,
+          "Position": "Midfielder",
+          "Name": "Sander Berge"
+        },
+        {
+          "Number": 17,
+          "Position": "Forward",
+          "Name": "Lyle Foster"
+        },
+        {
+          "Number": 18,
+          "Position": "Defender",
+          "Name": "Hjalmar Ekdal"
+        },
+        {
+          "Number": 19,
+          "Position": "Forward",
+          "Name": "Anass Zaroury"
+        },
+        {
+          "Number": 20,
+          "Position": "Goalkeeper",
+          "Name": "Denis Franchi"
+        },
+        {
+          "Number": 21,
+          "Position": "Midfielder",
+          "Name": "Aaron Ramsey"
+        },
+        {
+          "Number": 22,
+          "Position": "Defender",
+          "Name": "Vitinho"
+        },
+        {
+          "Number": 24,
+          "Position": "Midfielder",
+          "Name": "Josh Cullen"
+        },
+        {
+          "Number": 25,
+          "Position": "Forward",
+          "Name": "Zeki Amdouni"
+        },
+        {
+          "Number": 27,
+          "Position": "Forward",
+          "Name": "Darko Churlinov"
+        },
+        {
+          "Number": 28,
+          "Position": "Defender",
+          "Name": "Ameen Al-Dakhil"
+        },
+        {
+          "Number": 29,
+          "Position": "Goalkeeper",
+          "Name": "Lawrence Vigouroux"
+        },
+        {
+          "Number": 30,
+          "Position": "Forward",
+          "Name": "Luca Koleosho"
+        },
+        {
+          "Number": 31,
+          "Position": "Forward",
+          "Name": "Mike Trésor"
+        },
+        {
+          "Number": 34,
+          "Position": "Forward",
+          "Name": "Jacob Bruun Larsen"
+        },
+        {
+          "Number": 42,
+          "Position": "Midfielder",
+          "Name": "Han-Noah Massengo"
+        },
+        {
+          "Number": 44,
+          "Position": "Defender",
+          "Name": "Hannes Delcroix"
+        },
+        {
+          "Number": 45,
+          "Position": "Forward",
+          "Name": "Michael Obafemi"
+        },
+        {
+          "Number": 47,
+          "Position": "Forward",
+          "Name": "Wilson Odobert"
+        },
+        {
+          "Number": 48,
+          "Position": "Forward",
+          "Name": "Enock Agyei"
+        },
+        {
+          "Number": 49,
+          "Position": "Goalkeeper",
+          "Name": "Arijanet Muric"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chelsea",
+      "founded": 1905,
+      "stadium": {
+        "name": "Stamford Bridge",
+        "address": {
+          "street": "Fulham Rd",
+          "city": "London, UK",
+          "zip": "SW6 1HS"
+        },
+        "image": "../img/stadiums/chelsea-stadium.jpg"
+      },
+      "manager": "Mauricio Pochettino",
+      "logo": "./img/logos/Chelsea_FC.png",
+      "website": "https://www.chelseafc.com/en",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Robert Sánchez"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Axel Disasi"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Marc Cucurella"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "Benoît Badiashile"
+        },
+        {
+          "Number": 6,
+          "Position": "Defender",
+          "Name": "Thiago Silva"
+        },
+        {
+          "Number": 7,
+          "Position": "Forward",
+          "Name": "Raheem Sterling"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Enzo Fernández"
+        },
+        {
+          "Number": 10,
+          "Position": "Forward",
+          "Name": "Mykhailo Mudryk"
+        },
+        {
+          "Number": 11,
+          "Position": "Forward",
+          "Name": "Noni Madueke"
+        },
+        {
+          "Number": 13,
+          "Position": "Goalkeeper",
+          "Name": "Marcus Bettinelli"
+        },
+        {
+          "Number": 14,
+          "Position": "Defender",
+          "Name": "Trevoh Chalobah"
+        },
+        {
+          "Number": 15,
+          "Position": "Forward",
+          "Name": "Nicolas Jackson"
+        },
+        {
+          "Number": 16,
+          "Position": "Midfielder",
+          "Name": "Lesley Ugochukwu"
+        },
+        {
+          "Number": 17,
+          "Position": "Midfielder",
+          "Name": "Carney Chukwuemeka"
+        },
+        {
+          "Number": 18,
+          "Position": "Forward",
+          "Name": "Christopher Nkunku"
+        },
+        {
+          "Number": 19,
+          "Position": "Forward",
+          "Name": "Armando Broja"
+        },
+        {
+          "Number": 20,
+          "Position": "Midfielder",
+          "Name": "Cole Palmer"
+        },
+        {
+          "Number": 21,
+          "Position": "Defender",
+          "Name": "Ben Chilwell"
+        },
+        {
+          "Number": 23,
+          "Position": "Midfielder",
+          "Name": "Conor Gallagher"
+        },
+        {
+          "Number": 24,
+          "Position": "Defender",
+          "Name": "Reece James"
+        },
+        {
+          "Number": 25,
+          "Position": "Midfielder",
+          "Name": "Moisés Caicedo"
+        },
+        {
+          "Number": 26,
+          "Position": "Defender",
+          "Name": "Levi Colwill"
+        },
+        {
+          "Number": 27,
+          "Position": "Defender",
+          "Name": "Malo Gusto"
+        },
+        {
+          "Number": 28,
+          "Position": "Goalkeeper",
+          "Name": "Đorđe Petrović"
+        },
+        {
+          "Number": 29,
+          "Position": "Defender",
+          "Name": "Ian Maatsen"
+        },
+        {
+          "Number": 33,
+          "Position": "Defender",
+          "Name": "Wesley Fofana"
+        },
+        {
+          "Number": 36,
+          "Position": "Forward",
+          "Name": "Deivid Washington"
+        },
+        {
+          "Number": 45,
+          "Position": "Midfielder",
+          "Name": "Roméo Lavia"
+        },
+        {
+          "Number": 47,
+          "Position": "Goalkeeper",
+          "Name": "Lucas Bergström"
+        },
+        {
+          "Number": "--",
+          "Position": "Defender",
+          "Name": "Malang Sarr"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Crystal Palace",
+      "founded": 1905,
+      "stadium": {
+        "name": "Selhurst Park",
+        "address": {
+          "street": "Holmesdale Rd",
+          "city": "London, UK",
+          "zip": "SE25 6PU"
+        },
+        "image": "../img/stadiums/crystal-palace-stadium.jpg"
+      },
+      "manager": "Roy Hodgson",
+      "logo": "./img/logos/Crystal_Palace_FC.png",
+      "website": "https://www.cpfc.co.uk/",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Sam Johnstone"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Joel Ward"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Tyrick Mitchell"
+        },
+        {
+          "Number": 4,
+          "Position": "Defender",
+          "Name": "Rob Holding"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "James Tomkins"
+        },
+        {
+          "Number": 6,
+          "Position": "Defender",
+          "Name": "Marc Guéhi"
+        },
+        {
+          "Number": 7,
+          "Position": "Midfielder",
+          "Name": "Michael Olise"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Jefferson Lerma"
+        },
+        {
+          "Number": 9,
+          "Position": "Forward",
+          "Name": "Jordan Ayew"
+        },
+        {
+          "Number": 10,
+          "Position": "Midfielder",
+          "Name": "Eberechi Eze"
+        },
+        {
+          "Number": 11,
+          "Position": "Midfielder",
+          "Name": "Matheus França"
+        },
+        {
+          "Number": 14,
+          "Position": "Forward",
+          "Name": "Jean-Philippe Mateta"
+        },
+        {
+          "Number": 15,
+          "Position": "Midfielder",
+          "Name": "Jeffrey Schlupp"
+        },
+        {
+          "Number": 16,
+          "Position": "Defender",
+          "Name": "Joachim Andersen"
+        },
+        {
+          "Number": 17,
+          "Position": "Defender",
+          "Name": "Nathaniel Clyne"
+        },
+        {
+          "Number": 19,
+          "Position": "Midfielder",
+          "Name": "Will Hughes"
+        },
+        {
+          "Number": 22,
+          "Position": "Forward",
+          "Name": "Odsonne Édouard"
+        },
+        {
+          "Number": 23,
+          "Position": "Midfielder",
+          "Name": "Malcolm Ebiowei"
+        },
+        {
+          "Number": 26,
+          "Position": "Defender",
+          "Name": "Chris Richards"
+        },
+        {
+          "Number": 28,
+          "Position": "Midfielder",
+          "Name": "Cheick Doucouré"
+        },
+        {
+          "Number": 29,
+          "Position": "Midfielder",
+          "Name": "Naouirou Ahamada"
+        },
+        {
+          "Number": 30,
+          "Position": "Goalkeeper",
+          "Name": "Dean Henderson"
+        },
+        {
+          "Number": 31,
+          "Position": "Goalkeeper",
+          "Name": "Remi Matthews"
+        },
+        {
+          "Number": 36,
+          "Position": "Defender",
+          "Name": "Nathan Ferguson"
+        },
+        {
+          "Number": 44,
+          "Position": "Midfielder",
+          "Name": "Jaïro Riedewald"
+        },
+        {
+          "Number": 49,
+          "Position": "Forward",
+          "Name": "Jesurun Rak-Sakyi"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Everton",
+      "founded": 1878,
+      "stadium": {
+        "name": "Goodison Park",
+        "address": {
+          "street": "Goodison Rd",
+          "city": "Liverpool, UK",
+          "zip": "L4 4EL"
+        },
+        "image": "../img/stadiums/everton-stadium.jpg"
+      },
+      "manager": "Sean Dyche",
+      "logo": "./img/logos/Everton_FC.png",
+      "website": "https://www.evertonfc.com/home",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Jordan Pickford"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Nathan Patterson"
+        },
+        {
+          "Number": 5,
+          "Position": "Defender",
+          "Name": "Michael Keane"
+        },
+        {
+          "Number": 6,
+          "Position": "Defender",
+          "Name": "James Tarkowski"
+        },
+        {
+          "Number": 7,
+          "Position": "Forward",
+          "Name": "Dwight McNeil"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Amadou Onana"
+        },
+        {
+          "Number": 9,
+          "Position": "Forward",
+          "Name": "Dominic Calvert-Lewin"
+        },
+        {
+          "Number": 10,
+          "Position": "Forward",
+          "Name": "Arnaut Danjuma"
+        },
+        {
+          "Number": 11,
+          "Position": "Forward",
+          "Name": "Jack Harrison"
+        },
+        {
+          "Number": 12,
+          "Position": "Goalkeeper",
+          "Name": "João Virgínia"
+        },
+        {
+          "Number": 14,
+          "Position": "Forward",
+          "Name": "Beto"
+        },
+        {
+          "Number": 16,
+          "Position": "Midfielder",
+          "Name": "Abdoulaye Doucouré"
+        },
+        {
+          "Number": 18,
+          "Position": "Defender",
+          "Name": "Ashley Young"
+        },
+        {
+          "Number": 19,
+          "Position": "Defender",
+          "Name": "Vitaliy Mykolenko"
+        },
+        {
+          "Number": 20,
+          "Position": "Midfielder",
+          "Name": "Dele Alli"
+        },
+        {
+          "Number": 21,
+          "Position": "Midfielder",
+          "Name": "André Gomes"
+        },
+        {
+          "Number": 22,
+          "Position": "Defender",
+          "Name": "Ben Godfrey"
+        },
+        {
+          "Number": 23,
+          "Position": "Defender",
+          "Name": "Séamus Coleman"
+        },
+        {
+          "Number": 27,
+          "Position": "Midfielder",
+          "Name": "Idrissa Gueye"
+        },
+        {
+          "Number": 28,
+          "Position": "Forward",
+          "Name": "Youssef Chermiti"
+        },
+        {
+          "Number": 31,
+          "Position": "Goalkeeper",
+          "Name": "Andy Lonergan"
+        },
+        {
+          "Number": 32,
+          "Position": "Defender",
+          "Name": "Jarrad Branthwaite"
+        },
+        {
+          "Number": 37,
+          "Position": "Midfielder",
+          "Name": "James Garner"
+        },
+        {
+          "Number": 43,
+          "Position": "Goalkeeper",
+          "Name": "Billy Crellin"
+        },
+        {
+          "Number": 61,
+          "Position": "Forward",
+          "Name": "Lewis Dobbin"
+        },
+        {
+          "Number": 62,
+          "Position": "Midfielder",
+          "Name": "Tyler Onyango"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fulham",
+      "founded": 1879,
+      "stadium": {
+        "name": "Craven Cottage",
+        "address": {
+          "street": "Stevenage Rd",
+          "city": "London, UK",
+          "zip": "SW6 6HH"
+        },
+        "image": "../img/stadiums/fulham-stadium.jpg"
+      },
+      "manager": "Marco Silva",
+      "logo": "./img/logos/Fulham_FC.png",
+      "website": "https://www.fulhamfc.com/",
+      "players": [
+        {
+          "Number": 1,
+          "Position": "Goalkeeper",
+          "Name": "Marek Rodák"
+        },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Kenny Tete"
+        },
+        {
+          "Number": 3,
+          "Position": "Defender",
+          "Name": "Calvin Bassey"
+        },
+        {
+          "Number": 4,
+          "Position": "Defender",
+          "Name": "Tosin Adarabioyo"
+        },
+        {
+          "Number": 6,
+          "Position": "Midfielder",
+          "Name": "Harrison Reed"
+        },
+        {
+          "Number": 7,
+          "Position": "Forward",
+          "Name": "Raúl Jiménez"
+        },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Harry Wilson"
+        },
+        {
+          "Number": 10,
+          "Position": "Midfielder",
+          "Name": "Tom Cairney"
+        },
+        {
+          "Number": 11,
+          "Position": "Forward",
+          "Name": "Adama Traoré"
+        },
+        {
+          "Number": 12,
+          "Position": "Defender",
+          "Name": "Fodé Ballo-Touré"
+        },
+        {
+          "Number": 13,
+          "Position": "Defender",
+          "Name": "Tim Ream"
+        },
+        {
+          "Number": 14,
+          "Position": "Forward",
+          "Name": "Bobby Decordova-Reid"
+        },
+        {
+          "Number": 17,
+          "Position": "Goalkeeper",
+          "Name": "Bernd Leno"
+        },
+        {
+          "Number": 18,
+          "Position": "Midfielder",
+          "Name": "Andreas Pereira"
+        },
+        {
+          "Number": 19,
+          "Position": "Forward",
+          "Name": "Rodrigo Muniz"
+        },
+        {
+          "Number": 20,
+          "Position": "Forward",
+          "Name": "Willian"
+        },
+        {
+          "Number": 21,
+          "Position": "Defender",
+          "Name": "Timothy Castagne"
+        },
+        {
+          "Number": 22,
+          "Position": "Midfielder",
+          "Name": "Alex Iwobi"
+        },
+        {
+          "Number": 23,
+          "Position": "Goalkeeper",
+          "Name": "Steven Benda"
+        },
+        {
+          "Number": 26,
+          "Position": "Midfielder",
+          "Name": "João Palhinha"
+        },
+        {
+          "Number": 28,
+          "Position": "Midfielder",
+          "Name": "Saša Lukić"
+        },
+        {
+          "Number": 30,
+          "Position": "Forward",
+          "Name": "Carlos Vinícius"
+        },
+        {
+          "Number": 31,
+          "Position": "Defender",
+          "Name": "Issa Diop"
+        },
+        {
+          "Number": 33,
+          "Position": "Defender",
+          "Name": "Antonee Robinson"
+        },
+        {
+          "Number": 35,
+          "Position": "Midfielder",
+          "Name": "Tyrese Francois"
+        },
+        {
+          "Number": 38,
+          "Position": "Midfielder",
+          "Name": "Luke Harris"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Liverpool",
+      "founded": 1892,
+      "stadium": {
+        "name": "Anfield",
+        "address": {
+          "street": "Anfield Rd",
+          "city": "Liverpool, UK",
+          "zip": "L4 0TH"
+        },
+        "image": "../img/stadiums/liverpool-stadium.jpg"
+      },
+      "manager": "Jürgen Klopp",
+      "logo": "./img/logos/Liverpool_FC.png",
+      "website": "http://www.liverpoolfc.com/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Alisson Becker" },
+        { "Number": 2, "Position": "Defender", "Name": "Joe Gomez" },
+        { "Number": 3, "Position": "Midfielder", "Name": "Wataru Endō" },
+        { "Number": 4, "Position": "Defender", "Name": "Virgil van Dijk" },
+        { "Number": 5, "Position": "Defender", "Name": "Ibrahima Konaté" },
+        { "Number": 6, "Position": "Midfielder", "Name": "Thiago Alcântara" },
+        { "Number": 7, "Position": "Forward", "Name": "Luis Díaz" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Dominik Szoboszlai" },
+        { "Number": 9, "Position": "Forward", "Name": "Darwin Núñez" },
+        {
+          "Number": 10,
+          "Position": "Midfielder",
+          "Name": "Alexis Mac Allister"
+        },
+        { "Number": 11, "Position": "Forward", "Name": "Mohamed Salah" },
+        { "Number": 13, "Position": "Goalkeeper", "Name": "Adrián" },
+        { "Number": 17, "Position": "Midfielder", "Name": "Curtis Jones" },
+        { "Number": 18, "Position": "Forward", "Name": "Cody Gakpo" },
+        { "Number": 19, "Position": "Midfielder", "Name": "Harvey Elliott" },
+        { "Number": 20, "Position": "Forward", "Name": "Diogo Jota" },
+        { "Number": 21, "Position": "Defender", "Name": "Kostas Tsimikas" },
+        { "Number": 26, "Position": "Defender", "Name": "Andrew Robertson" },
+        { "Number": 32, "Position": "Defender", "Name": "Joël Matip" },
+        { "Number": 38, "Position": "Midfielder", "Name": "Ryan Gravenberch" },
+        { "Number": 43, "Position": "Midfielder", "Name": "Stefan Bajcetic" },
+        { "Number": 45, "Position": "Goalkeeper", "Name": "Marcelo Pitaluga" },
+        { "Number": 50, "Position": "Forward", "Name": "Ben Doak" },
+        { "Number": 62, "Position": "Goalkeeper", "Name": "Caoimhín Kelleher" },
+        {
+          "Number": 66,
+          "Position": "Defender",
+          "Name": "Trent Alexander-Arnold"
+        },
+        { "Number": 78, "Position": "Defender", "Name": "Jarell Quansah" },
+        { "Number": 84, "Position": "Defender", "Name": "Conor Bradley" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Luton Town",
+      "founded": 1885,
+      "stadium": {
+        "name": "Kenilworth Road",
+        "address": {
+          "street": "Maple Rd",
+          "city": "Luton, UK",
+          "zip": "LU4 8AW"
+        },
+        "image": "../img/stadiums/luton-town-stadium.jpg"
+      },
+      "manager": "Rob Edwards",
+      "logo": "./img/logos/Luton_Town.png",
+      "website": "https://www.lutontown.co.uk/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "James Shea" },
+        { "Number": 2, "Position": "Defender", "Name": "Gabriel Osho" },
+        { "Number": 3, "Position": "Defender", "Name": "Dan Potts" },
+        { "Number": 4, "Position": "Defender", "Name": "Tom Lockyer" },
+        { "Number": 5, "Position": "Defender", "Name": "Mads Juel Andersen" },
+        { "Number": 6, "Position": "Midfielder", "Name": "Ross Barkley" },
+        { "Number": 7, "Position": "Forward", "Name": "Chiedozie Ogbene" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Luke Berry" },
+        { "Number": 9, "Position": "Forward", "Name": "Carlton Morris" },
+        { "Number": 10, "Position": "Forward", "Name": "Cauley Woodrow" },
+        { "Number": 11, "Position": "Forward", "Name": "Elijah Adebayo" },
+        { "Number": 12, "Position": "Defender", "Name": "Issa Kaboré" },
+        { "Number": 13, "Position": "Midfielder", "Name": "Marvelous Nakamba" },
+        { "Number": 14, "Position": "Midfielder", "Name": "Tahith Chong" },
+        { "Number": 15, "Position": "Defender", "Name": "Teden Mengi" },
+        { "Number": 16, "Position": "Defender", "Name": "Reece Burke" },
+        {
+          "Number": 17,
+          "Position": "Midfielder",
+          "Name": "Pelly Ruddock Mpanzu"
+        },
+        { "Number": 18, "Position": "Midfielder", "Name": "Jordan Clark" },
+        { "Number": 19, "Position": "Forward", "Name": "Jacob Brown" },
+        { "Number": 23, "Position": "Goalkeeper", "Name": "Tim Krul" },
+        { "Number": 24, "Position": "Goalkeeper", "Name": "Thomas Kaminski" },
+        { "Number": 26, "Position": "Defender", "Name": "Ryan Giles" },
+        {
+          "Number": 28,
+          "Position": "Midfielder",
+          "Name": "Albert Sambi Lokonga"
+        },
+        { "Number": 29, "Position": "Defender", "Name": "Amari'i Bell" },
+        { "Number": 30, "Position": "Midfielder", "Name": "Andros Townsend" },
+        { "Number": 45, "Position": "Midfielder", "Name": "Alfie Doughty" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Manchester City",
+      "founded": 1880,
+      "stadium": {
+        "name": "City of Manchester Stadium",
+        "address": {
+          "street": "Ashton New Rd",
+          "city": "Manchester, UK",
+          "zip": "M11 3FF"
+        },
+        "image": "../img/stadiums/manchester-city-stadium.jpg"
+      },
+      "manager": "Pep Guardiola",
+      "logo": "./img/logos/Manchester_City_FC.png",
+      "website": "http://www.mancity.com/",
+      "players": [
+        { "Number": 2, "Position": "Defender", "Name": "Kyle Walker" },
+        { "Number": 3, "Position": "Defender", "Name": "Rúben Dias" },
+        { "Number": 4, "Position": "Midfielder", "Name": "Kalvin Phillips" },
+        { "Number": 5, "Position": "Defender", "Name": "John Stones" },
+        { "Number": 6, "Position": "Defender", "Name": "Nathan Aké" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Mateo Kovačić" },
+        { "Number": 9, "Position": "Forward", "Name": "Erling Haaland" },
+        { "Number": 10, "Position": "Midfielder", "Name": "Jack Grealish" },
+        { "Number": 11, "Position": "Midfielder", "Name": "Jérémy Doku" },
+        { "Number": 16, "Position": "Midfielder", "Name": "Rodri" },
+        { "Number": 17, "Position": "Midfielder", "Name": "Kevin De Bruyne" },
+        { "Number": 18, "Position": "Goalkeeper", "Name": "Stefan Ortega" },
+        { "Number": 19, "Position": "Forward", "Name": "Julián Álvarez" },
+        { "Number": 20, "Position": "Midfielder", "Name": "Bernardo Silva" },
+        { "Number": 21, "Position": "Defender", "Name": "Sergio Gómez" },
+        { "Number": 24, "Position": "Defender", "Name": "Joško Gvardiol" },
+        { "Number": 25, "Position": "Defender", "Name": "Manuel Akanji" },
+        { "Number": 27, "Position": "Midfielder", "Name": "Matheus Nunes" },
+        { "Number": 31, "Position": "Goalkeeper", "Name": "Ederson" },
+        { "Number": 33, "Position": "Goalkeeper", "Name": "Scott Carson" },
+        { "Number": 47, "Position": "Midfielder", "Name": "Phil Foden" },
+        { "Number": 52, "Position": "Midfielder", "Name": "Oscar Bobb" },
+        { "Number": 82, "Position": "Defender", "Name": "Rico Lewis" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Manchester United",
+      "founded": 1902,
+      "stadium": {
+        "name": "Old Trafford",
+        "address": {
+          "street": "Sir Matt Busby Way",
+          "city": "Manchester, UK",
+          "zip": "M16 0RA"
+        },
+        "image": "../img/stadiums/manchester-united-stadium.jpg"
+      },
+      "manager": "Erik ten Hag",
+      "logo": "./img/logos/Manchester_United_FC.png",
+      "website": "https://www.manutd.com/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Altay Bayındır" },
+        { "Number": 2, "Position": "Defender", "Name": "Victor Lindelöf" },
+        { "Number": 4, "Position": "Midfielder", "Name": "Sofyan Amrabat" },
+        { "Number": 5, "Position": "Defender", "Name": "Harry Maguire" },
+        { "Number": 6, "Position": "Defender", "Name": "Lisandro Martínez" },
+        { "Number": 7, "Position": "Midfielder", "Name": "Mason Mount" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Bruno Fernandes" },
+        { "Number": 9, "Position": "Forward", "Name": "Anthony Martial" },
+        { "Number": 10, "Position": "Forward", "Name": "Marcus Rashford" },
+        { "Number": 11, "Position": "Forward", "Name": "Rasmus Højlund" },
+        { "Number": 12, "Position": "Defender", "Name": "Tyrell Malacia" },
+        { "Number": 14, "Position": "Midfielder", "Name": "Christian Eriksen" },
+        { "Number": 15, "Position": "Defender", "Name": "Sergio Reguilón" },
+        { "Number": 16, "Position": "Midfielder", "Name": "Amad Diallo" },
+        { "Number": 17, "Position": "Forward", "Name": "Alejandro Garnacho" },
+        { "Number": 18, "Position": "Midfielder", "Name": "Casemiro" },
+        { "Number": 19, "Position": "Defender", "Name": "Raphaël Varane" },
+        { "Number": 20, "Position": "Defender", "Name": "Diogo Dalot" },
+        { "Number": 21, "Position": "Forward", "Name": "Antony" },
+        { "Number": 22, "Position": "Goalkeeper", "Name": "Tom Heaton" },
+        { "Number": 23, "Position": "Defender", "Name": "Luke Shaw" },
+        { "Number": 24, "Position": "Goalkeeper", "Name": "André Onana" },
+        { "Number": 25, "Position": "Forward", "Name": "Jadon Sancho" },
+        { "Number": 28, "Position": "Midfielder", "Name": "Facundo Pellistri" },
+        { "Number": 29, "Position": "Defender", "Name": "Aaron Wan-Bissaka" },
+        { "Number": 34, "Position": "Midfielder", "Name": "Donny van de Beek" },
+        { "Number": 35, "Position": "Defender", "Name": "Jonny Evans" },
+        { "Number": 37, "Position": "Midfielder", "Name": "Kobbie Mainoo" },
+        { "Number": 39, "Position": "Midfielder", "Name": "Scott McTominay" },
+        { "Number": 46, "Position": "Midfielder", "Name": "Hannibal Mejbri" },
+        { "Number": 47, "Position": "Forward", "Name": "Shola Shoretire" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Newcastle United",
+      "founded": 1892,
+      "stadium": {
+        "name": "St. James' Park",
+        "address": {
+          "street": "Strawberry Place",
+          "city": "Newcastle, UK",
+          "zip": "NE1 4ST"
+        },
+        "image": "../img/stadiums/newcastle-stadium.jpg"
+      },
+      "manager": "Eddie Howe",
+      "logo": "./img/logos/Newcastle_United.png",
+      "website": "https://www.nufc.co.uk/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Martin Dúbravka" },
+        {
+          "Number": 2,
+          "Position": "Defender",
+          "Name": "Kieran Trippier"
+        },
+        { "Number": 3, "Position": "Defender", "Name": "Paul Dummett" },
+        { "Number": 4, "Position": "Defender", "Name": "Sven Botman" },
+        { "Number": 5, "Position": "Defender", "Name": "Fabian Schär" },
+        {
+          "Number": 6,
+          "Position": "Defender",
+          "Name": "Jamaal Lascelles"
+        },
+        { "Number": 7, "Position": "Midfielder", "Name": "Joelinton" },
+        {
+          "Number": 8,
+          "Position": "Midfielder",
+          "Name": "Sandro Tonali"
+        },
+        { "Number": 9, "Position": "Forward", "Name": "Callum Wilson" },
+        { "Number": 10, "Position": "Forward", "Name": "Anthony Gordon" },
+        { "Number": 11, "Position": "Midfielder", "Name": "Matt Ritchie" },
+        { "Number": 13, "Position": "Defender", "Name": "Matt Targett" },
+        { "Number": 14, "Position": "Forward", "Name": "Alexander Isak" },
+        { "Number": 15, "Position": "Midfielder", "Name": "Harvey Barnes" },
+        { "Number": 17, "Position": "Defender", "Name": "Emil Krafth" },
+        { "Number": 18, "Position": "Goalkeeper", "Name": "Loris Karius" },
+        { "Number": 19, "Position": "Defender", "Name": "Javier Manquillo" },
+        {
+          "Number": 20,
+          "Position": "Defender",
+          "Name": "Lewis Hall"
+        },
+        { "Number": 21, "Position": "Defender", "Name": "Tino Livramento" },
+        { "Number": 22, "Position": "Goalkeeper", "Name": "Nick Pope" },
+        { "Number": 23, "Position": "Midfielder", "Name": "Jacob Murphy" },
+        { "Number": 24, "Position": "Midfielder", "Name": "Miguel Almirón" },
+        { "Number": 28, "Position": "Midfielder", "Name": "Joe Willock" },
+        { "Number": 29, "Position": "Goalkeeper", "Name": "Mark Gillespie" },
+        { "Number": 32, "Position": "Midfielder", "Name": "Elliot Anderson" },
+        { "Number": 33, "Position": "Defender", "Name": "Dan Burn" },
+        { "Number": 36, "Position": "Midfielder", "Name": "Sean Longstaff" },
+        { "Number": 39, "Position": "Midfielder", "Name": "Bruno Guimarães" },
+        { "Number": 67, "Position": "Midfielder", "Name": "Lewis Miley" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Nottingham Forest",
+      "founded": 1865,
+      "stadium": {
+        "name": "City Ground",
+        "address": {
+          "street": "Colwick Rd",
+          "city": "Nottingham, UK",
+          "zip": "NG2 5FR"
+        },
+        "image": "../img/stadiums/nottingham-forest-stadium.jpg"
+      },
+      "manager": "Steve Cooper",
+      "logo": "./img/logos/Nottingham_Forest_FC.png",
+      "website": "http://www.nottinghamforest.co.uk/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Matt Turner" },
+        { "Number": 3, "Position": "Defender", "Name": "Nuno Tavares" },
+        { "Number": 4, "Position": "Defender", "Name": "Joe Worrall" },
+        { "Number": 5, "Position": "Midfielder", "Name": "Orel Mangala" },
+        { "Number": 6, "Position": "Midfielder", "Name": "Ibrahim Sangaré" },
+        { "Number": 7, "Position": "Defender", "Name": "Neco Williams" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Cheikhou Kouyaté" },
+        { "Number": 9, "Position": "Forward", "Name": "Taiwo Awoniyi" },
+        {
+          "Number": 10,
+          "Position": "Midfielder",
+          "Name": "Morgan Gibbs-White"
+        },
+        { "Number": 11, "Position": "Forward", "Name": "Chris Wood" },
+        { "Number": 12, "Position": "Midfielder", "Name": "Andrey Santos" },
+        { "Number": 13, "Position": "Goalkeeper", "Name": "Wayne Hennessey" },
+        { "Number": 14, "Position": "Forward", "Name": "Callum Hudson-Odoi" },
+        { "Number": 15, "Position": "Defender", "Name": "Harry Toffolo" },
+        { "Number": 16, "Position": "Midfielder", "Name": "Nicolás Domínguez" },
+        { "Number": 18, "Position": "Defender", "Name": "Felipe" },
+        { "Number": 19, "Position": "Defender", "Name": "Moussa Niakhaté" },
+        { "Number": 21, "Position": "Forward", "Name": "Anthony Elanga" },
+        { "Number": 22, "Position": "Midfielder", "Name": "Ryan Yates" },
+        {
+          "Number": 23,
+          "Position": "Goalkeeper",
+          "Name": "Odysseas Vlachodimos"
+        },
+        { "Number": 24, "Position": "Defender", "Name": "Serge Aurier" },
+        { "Number": 26, "Position": "Defender", "Name": "Scott McKenna" },
+        { "Number": 27, "Position": "Forward", "Name": "Divock Origi" },
+        { "Number": 28, "Position": "Midfielder", "Name": "Danilo" },
+        { "Number": 29, "Position": "Defender", "Name": "Gonzalo Montiel" },
+        { "Number": 30, "Position": "Defender", "Name": "Willy Boly" },
+        { "Number": 32, "Position": "Defender", "Name": "Andrew Omobamidele" },
+        { "Number": 40, "Position": "Defender", "Name": "Murillo" },
+        { "Number": 41, "Position": "Midfielder", "Name": "Brandon Aguilera" },
+        { "Number": 43, "Position": "Defender", "Name": "Ola Aina" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Sheffield United",
+      "founded": 1889,
+      "stadium": {
+        "name": "Bramall Lane",
+        "address": {
+          "street": "John Rd",
+          "city": "Sheffield, UK",
+          "zip": "S2 4QX"
+        },
+        "image": "../img/stadiums/sheffield-united-stadium.jpg"
+      },
+      "manager": "Paul Heckingbottom",
+      "logo": "./img/logos/Sheffield_United_FC.png",
+      "website": "https://www.sufc.co.uk/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Adam Davies" },
+        { "Number": 2, "Position": "Defender", "Name": "George Baldock" },
+        { "Number": 3, "Position": "Defender", "Name": "Max Lowe" },
+        { "Number": 4, "Position": "Midfielder", "Name": "John Fleck" },
+        { "Number": 5, "Position": "Defender", "Name": "Auston Trusty" },
+        { "Number": 6, "Position": "Defender", "Name": "Chris Basham" },
+        { "Number": 7, "Position": "Forward", "Name": "Rhian Brewster" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Gustavo Hamer" },
+        { "Number": 9, "Position": "Forward", "Name": "Oli McBurnie" },
+        { "Number": 10, "Position": "Forward", "Name": "Cameron Archer" },
+        { "Number": 11, "Position": "Forward", "Name": "Bénie Traoré" },
+        { "Number": 12, "Position": "Defender", "Name": "John Egan" },
+        { "Number": 14, "Position": "Defender", "Name": "Luke Thomas" },
+        { "Number": 15, "Position": "Defender", "Name": "Anel Ahmedhodžić" },
+        { "Number": 16, "Position": "Midfielder", "Name": "Oliver Norwood" },
+        { "Number": 17, "Position": "Midfielder", "Name": "Ismaila Coulibaly" },
+        { "Number": 18, "Position": "Goalkeeper", "Name": "Wes Foderingham" },
+        { "Number": 19, "Position": "Defender", "Name": "Jack Robinson" },
+        { "Number": 20, "Position": "Defender", "Name": "Jayden Bogle" },
+        { "Number": 21, "Position": "Midfielder", "Name": "Vinícius Souza" },
+        { "Number": 22, "Position": "Midfielder", "Name": "Tom Davies" },
+        { "Number": 23, "Position": "Midfielder", "Name": "Ben Osborn" },
+        { "Number": 25, "Position": "Midfielder", "Name": "Anis Ben Slimane" },
+        { "Number": 27, "Position": "Defender", "Name": "Yasser Larouci" },
+        { "Number": 28, "Position": "Midfielder", "Name": "James McAtee" },
+        { "Number": 32, "Position": "Forward", "Name": "William Osula" },
+        {
+          "Number": 33,
+          "Position": "Defender",
+          "Name": "Rhys Norrington-Davies"
+        },
+        { "Number": 35, "Position": "Midfielder", "Name": "Andre Brooks" },
+        { "Number": 36, "Position": "Forward", "Name": "Daniel Jebbison" },
+        { "Number": 37, "Position": "Goalkeeper", "Name": "Jordan Amissah" },
+        { "Number": 38, "Position": "Defender", "Name": "Femi Seriki" },
+        { "Number": 39, "Position": "Forward", "Name": "Antwoine Hackford" },
+        { "Number": 40, "Position": "Defender", "Name": "Jili Buyabu" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Tottenham Hotspur",
+      "founded": 1882,
+      "stadium": {
+        "name": "Tottenham Hotspur Stadium",
+        "address": {
+          "street": "High Rd",
+          "city": "London, UK",
+          "zip": "N17 0BX"
+        },
+        "image": "../img/stadiums/tottenham-stadium.jpg"
+      },
+      "manager": "Ange Postecoglou",
+      "logo": "./img/logos/Tottenham_Hotspur.png",
+      "website": "https://www.tottenhamhotspur.com/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Hugo Lloris" },
+        { "Number": 4, "Position": "Midfielder", "Name": "Oliver Skipp" },
+        {
+          "Number": 5,
+          "Position": "Midfielder",
+          "Name": "Pierre-Emile Højbjerg"
+        },
+        { "Number": 7, "Position": "Forward", "Name": "Son Heung-min" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Yves Bissouma" },
+        { "Number": 9, "Position": "Forward", "Name": "Richarlison" },
+        { "Number": 10, "Position": "Midfielder", "Name": "James Maddison" },
+        { "Number": 11, "Position": "Midfielder", "Name": "Bryan Gil" },
+        { "Number": 12, "Position": "Defender", "Name": "Emerson Royal" },
+        { "Number": 13, "Position": "Goalkeeper", "Name": "Guglielmo Vicario" },
+        { "Number": 14, "Position": "Midfielder", "Name": "Ivan Perišić" },
+        { "Number": 15, "Position": "Defender", "Name": "Eric Dier" },
+        { "Number": 17, "Position": "Defender", "Name": "Cristian Romero" },
+        { "Number": 18, "Position": "Midfielder", "Name": "Giovani Lo Celso" },
+        { "Number": 19, "Position": "Midfielder", "Name": "Ryan Sessegnon" },
+        { "Number": 20, "Position": "Goalkeeper", "Name": "Fraser Forster" },
+        { "Number": 21, "Position": "Forward", "Name": "Dejan Kulusevski" },
+        { "Number": 22, "Position": "Forward", "Name": "Brennan Johnson" },
+        { "Number": 23, "Position": "Defender", "Name": "Pedro Porro" },
+        { "Number": 27, "Position": "Forward", "Name": "Manor Solomon" },
+        { "Number": 29, "Position": "Midfielder", "Name": "Pape Matar Sarr" },
+        { "Number": 30, "Position": "Midfielder", "Name": "Rodrigo Bentancur" },
+        { "Number": 33, "Position": "Defender", "Name": "Ben Davies" },
+        { "Number": 35, "Position": "Defender", "Name": "Ashley Phillips" },
+        { "Number": 36, "Position": "Forward", "Name": "Alejo Véliz" },
+        { "Number": 37, "Position": "Defender", "Name": "Micky van de Ven" },
+        { "Number": 38, "Position": "Defender", "Name": "Destiny Udogie" },
+        { "Number": 40, "Position": "Goalkeeper", "Name": "Brandon Austin" },
+        { "Number": 41, "Position": "Goalkeeper", "Name": "Alfie Whiteman" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "West Ham United",
+      "founded": 1895,
+      "stadium": {
+        "name": "London Stadium",
+        "address": {
+          "street": "Marshgate Ln",
+          "city": "London, UK",
+          "zip": "E20 2ST"
+        },
+        "image": "../img/stadiums/west-ham-stadium.jpg"
+      },
+      "manager": "David Moyes",
+      "logo": "./img/logos/West_Ham_United_FC.png",
+      "website": "https://www.whufc.com/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "Łukasz Fabiański" },
+        { "Number": 2, "Position": "Defender", "Name": "Ben Johnson" },
+        { "Number": 3, "Position": "Defender", "Name": "Aaron Cresswell" },
+        { "Number": 4, "Position": "Defender", "Name": "Kurt Zouma" },
+        { "Number": 5, "Position": "Defender", "Name": "Vladimír Coufal" },
+        { "Number": 7, "Position": "Midfielder", "Name": "James Ward-Prowse" },
+        { "Number": 8, "Position": "Midfielder", "Name": "Pablo Fornals" },
+        { "Number": 9, "Position": "Forward", "Name": "Michail Antonio" },
+        { "Number": 10, "Position": "Midfielder", "Name": "Lucas Paquetá" },
+        { "Number": 14, "Position": "Forward", "Name": "Mohammed Kudus" },
+        {
+          "Number": 15,
+          "Position": "Defender",
+          "Name": "Konstantinos Mavropanos"
+        },
+        { "Number": 17, "Position": "Forward", "Name": "Maxwel Cornet" },
+        { "Number": 18, "Position": "Forward", "Name": "Danny Ings" },
+        { "Number": 19, "Position": "Midfielder", "Name": "Edson Álvarez" },
+        { "Number": 20, "Position": "Midfielder", "Name": "Jarrod Bowen" },
+        { "Number": 21, "Position": "Defender", "Name": "Angelo Ogbonna" },
+        { "Number": 22, "Position": "Forward", "Name": "Saïd Benrahma" },
+        { "Number": 23, "Position": "Goalkeeper", "Name": "Alphonse Areola" },
+        { "Number": 24, "Position": "Defender", "Name": "Thilo Kehrer" },
+        { "Number": 27, "Position": "Defender", "Name": "Nayef Aguerd" },
+        { "Number": 28, "Position": "Midfielder", "Name": "Tomáš Souček" },
+        { "Number": 33, "Position": "Defender", "Name": "Emerson Palmieri" },
+        { "Number": 45, "Position": "Forward", "Name": "Divin Mubama" },
+        { "Number": 49, "Position": "Goalkeeper", "Name": "Joseph Anang" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Wolverhampton Wanderers",
+      "founded": 1877,
+      "stadium": {
+        "name": "Molineux Stadium",
+        "address": {
+          "street": "Waterloo Rd",
+          "city": "Wolverhampton, UK",
+          "zip": "WV1 4QR"
+        },
+        "image": "../img/stadiums/wolverhampton-stadium.jpg"
+      },
+      "manager": "Gary O'Neil",
+      "logo": "./img/logos/Wolverhampton_Wanderers.png",
+      "website": "https://www.wolves.co.uk/",
+      "players": [
+        { "Number": 1, "Position": "Goalkeeper", "Name": "José Sá" },
+        { "Number": 2, "Position": "Defender", "Name": "Matt Doherty" },
+        { "Number": 3, "Position": "Defender", "Name": "Rayan Aït-Nouri" },
+        { "Number": 4, "Position": "Defender", "Name": "Santiago Bueno" },
+        { "Number": 5, "Position": "Midfielder", "Name": "Mario Lemina" },
+        { "Number": 6, "Position": "Midfielder", "Name": "Boubacar Traoré" },
+        { "Number": 7, "Position": "Forward", "Name": "Pedro Neto" },
+        { "Number": 8, "Position": "Midfielder", "Name": "João Gomes" },
+        { "Number": 9, "Position": "Forward", "Name": "Fábio Silva" },
+        { "Number": 11, "Position": "Forward", "Name": "Hwang Hee-chan" },
+        { "Number": 12, "Position": "Forward", "Name": "Matheus Cunha" },
+        { "Number": 15, "Position": "Defender", "Name": "Craig Dawson" },
+        { "Number": 17, "Position": "Defender", "Name": "Hugo Bueno" },
+        { "Number": 18, "Position": "Forward", "Name": "Saša Kalajdžić" },
+        { "Number": 19, "Position": "Defender", "Name": "Jonny" },
+        { "Number": 20, "Position": "Midfielder", "Name": "Tommy Doyle" },
+        { "Number": 21, "Position": "Midfielder", "Name": "Pablo Sarabia" },
+        { "Number": 22, "Position": "Defender", "Name": "Nélson Semedo" },
+        { "Number": 23, "Position": "Defender", "Name": "Max Kilman" },
+        { "Number": 24, "Position": "Defender", "Name": "Toti Gomes" },
+        { "Number": 25, "Position": "Goalkeeper", "Name": "Dan Bentley" },
+        {
+          "Number": 27,
+          "Position": "Midfielder",
+          "Name": "Jean-Ricner Bellegarde"
+        },
+        { "Number": 30, "Position": "Forward", "Name": "Enso González" },
+        { "Number": 32, "Position": "Midfielder", "Name": "Joe Hodge" },
+        { "Number": 40, "Position": "Goalkeeper", "Name": "Tom King" },
+        { "Number": 63, "Position": "Forward", "Name": "Nathan Fraser" },
+        { "Number": 67, "Position": "Defender", "Name": "Justin Hubner" }
+      ]
+    }
+  ]
+}
