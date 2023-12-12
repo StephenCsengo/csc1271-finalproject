@@ -39,7 +39,7 @@ function addTitle(team, link, titles) {
   titleDiv.appendChild(h1);
   titleDiv.appendChild(a);
 
-  //Conditionally add titles won
+  //Conditionally add EPL titles won
   if (titles !== null) {
     let p = document.createElement("p");
     p.setAttribute("class", "titles");
@@ -63,7 +63,7 @@ function addTitle(team, link, titles) {
 }
 function addPlayers(players) {
   const table = document.querySelector("#team tbody");
-  players.forEach(function (player) {
+  players.forEach((player) => {
     const row = table.insertRow(-1);
     const number = row.insertCell(0);
     const name = row.insertCell(1);
