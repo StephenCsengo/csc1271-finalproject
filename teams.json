@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Arsenal",
       "founded": 1886,
+      "titles": [1998, 2002, 2004],
       "url": "/arsenal.html",
       "stadium": {
         "name": "Emirates Stadium",
@@ -149,6 +150,7 @@
       "id": 2,
       "name": "Aston Villa",
       "founded": 1874,
+      "titles": null,
       "url": "/astonvilla.html",
       "stadium": {
         "name": "Villa Park",
@@ -299,6 +301,7 @@
       "id": 3,
       "name": "Bournemouth",
       "founded": 1899,
+      "titles": null,
       "url": "/bournemouth.html",
       "stadium": {
         "name": "Dean Court",
@@ -464,6 +467,7 @@
       "id": 4,
       "name": "Brentford",
       "founded": 1889,
+      "titles": null,
       "url": "/brentford.html",
       "stadium": {
         "name": "GTech Community Stadium",
@@ -624,6 +628,7 @@
       "id": 5,
       "name": "Brighton Hove & Albion",
       "founded": 1901,
+      "titles": null,
       "url": "/brighton.html",
       "stadium": {
         "name": "Falmer Stadium",
@@ -774,6 +779,7 @@
       "id": 6,
       "name": "Burnley",
       "founded": 1882,
+      "titles": null,
       "url": "/burnley.html",
       "stadium": {
         "name": "Turf Moor",
@@ -959,6 +965,7 @@
       "id": 7,
       "name": "Chelsea",
       "founded": 1905,
+      "titles": [2005, 2006, 2010, 2015, 2017],
       "url": "/chelsea.html",
       "stadium": {
         "name": "Stamford Bridge",
@@ -1129,6 +1136,7 @@
       "id": 8,
       "name": "Crystal Palace",
       "founded": 1905,
+      "titles": null,
       "url": "/crystalpalace.html",
       "stadium": {
         "name": "Selhurst Park",
@@ -1279,6 +1287,7 @@
       "id": 9,
       "name": "Everton",
       "founded": 1878,
+      "tiles": null,
       "url": "/everton.html",
       "stadium": {
         "name": "Goodison Park",
@@ -1429,6 +1438,7 @@
       "id": 10,
       "name": "Fulham",
       "founded": 1879,
+      "titles": null,
       "url": "/fulham.html",
       "stadium": {
         "name": "Craven Cottage",
@@ -1579,6 +1589,7 @@
       "id": 11,
       "name": "Liverpool",
       "founded": 1892,
+      "titles": [2020],
       "url": "/liverpool.html",
       "stadium": {
         "name": "Anfield",
@@ -1634,6 +1645,7 @@
       "id": 12,
       "name": "Luton Town",
       "founded": 1885,
+      "titles": null,
       "url": "/lutontown.html",
       "stadium": {
         "name": "Kenilworth Road",
@@ -1688,6 +1700,7 @@
       "id": 13,
       "name": "Manchester City",
       "founded": 1880,
+      "titles": [2012, 2014, 2018, 2019, 2021, 2022, 2023],
       "url": "/manchestercity.html",
       "stadium": {
         "name": "City of Manchester Stadium",
@@ -1731,6 +1744,10 @@
       "id": 14,
       "name": "Manchester United",
       "founded": 1902,
+      "titles": [
+        1993, 1994, 1996, 1997, 1999, 2000, 2001, 2003, 2007, 2008, 2009, 2011,
+        2013
+      ],
       "url": "/manchesterunited.html",
       "stadium": {
         "name": "Old Trafford",
@@ -1782,6 +1799,7 @@
       "id": 15,
       "name": "Newcastle United",
       "founded": 1892,
+      "titles": null,
       "url": "/newcastle.html",
       "stadium": {
         "name": "St. James' Park",
@@ -1847,6 +1865,7 @@
       "id": 16,
       "name": "Nottingham Forest",
       "founded": 1865,
+      "titles": null,
       "url": "/nottingham.html",
       "stadium": {
         "name": "City Ground",
@@ -1905,6 +1924,7 @@
       "id": 17,
       "name": "Sheffield United",
       "founded": 1889,
+      "titles": null,
       "url": "/sheffield.html",
       "stadium": {
         "name": "Bramall Lane",
@@ -1962,6 +1982,7 @@
       "id": 18,
       "name": "Tottenham Hotspur",
       "founded": 1882,
+      "titles": null,
       "url": "/tottenham.html",
       "stadium": {
         "name": "Tottenham Hotspur Stadium",
@@ -2015,6 +2036,7 @@
       "id": 19,
       "name": "West Ham United",
       "founded": 1895,
+      "titles": null,
       "url": "/westham.html",
       "stadium": {
         "name": "London Stadium",
@@ -2063,6 +2085,7 @@
       "id": 20,
       "name": "Wolverhampton Wanderers",
       "founded": 1877,
+      "titles": null,
       "url": "/wolverhampton.html",
       "stadium": {
         "name": "Molineux Stadium",
