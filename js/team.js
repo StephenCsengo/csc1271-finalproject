@@ -28,7 +28,7 @@ function addNavItems(teams) {
 }
 
 function addTitle(team, link, titles) {
-  console.log(titles);
+  //Add h1, link to official site
   const titleDiv = document.querySelector(".team-view-title");
   let h1 = document.createElement("h1");
   let a = document.createElement("a");
@@ -38,6 +38,7 @@ function addTitle(team, link, titles) {
   titleDiv.appendChild(h1);
   titleDiv.appendChild(a);
 
+  //Conditionally add titles won
   if (titles !== null) {
     let p = document.createElement("p");
     p.setAttribute("class", "titles");
@@ -48,6 +49,16 @@ function addTitle(team, link, titles) {
     }
     titleDiv.appendChild(p);
   }
+
+  //Add title to player table
+  const caption = document.querySelector("#team caption");
+  caption.innerText = `${team} First-Team Players`;
+
+  //Add title to stadium section
+  const stadium = document.querySelector(".stadium-title");
+  let h2 = document.createElement("h2");
+  h2.innerText = `${team} Stadium Information`;
+  stadium.appendChild(h2);
 }
 function addPlayers(players) {
   const table = document.querySelector("#team tbody");
@@ -61,3 +72,5 @@ function addPlayers(players) {
     position.innerText = player.Position;
   });
 }
+
+function addStadium(stadium) {}
