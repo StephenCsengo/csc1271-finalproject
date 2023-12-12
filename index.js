@@ -11,7 +11,8 @@ class Card {
     let card = document.createElement("article");
     card.setAttribute("class", "card");
     let img = document.createElement("img");
-    img.src = this.logo;
+    img.src = `./img/logos${this.logo}`;
+    img.setAttribute("alt", `${this.name} Logo`);
     let div = document.createElement("div");
     div.setAttribute("class", "card-content");
     let h2 = document.createElement("h2");
@@ -27,7 +28,7 @@ class Card {
     managerLi.innerText = `Manager: ${this.manager}`;
     let a = document.createElement("a");
     a.innerText = "Learn More";
-    a.setAttribute("href", this.url);
+    a.setAttribute("href", `./teampage${this.url}`);
 
     ul.appendChild(foundedLi);
     ul.appendChild(groundsLi);
@@ -53,9 +54,6 @@ fetch("https://stephencsengo.github.io/csc1271-finalproject/teams.json")
 
 function addCards(teams) {
   console.log(teams);
-  /*   for (let team of teams) {
-    console.log(team);
-  } */
   teams.forEach(function (team) {
     let cardHolder = document.querySelector(".team-cards");
     const card = new Card(
@@ -69,7 +67,3 @@ function addCards(teams) {
     cardHolder.append(card.makeElement());
   });
 }
-
-const path = window.location.pathname;
-teamName = path.substring(path.lastIndexOf("/") + 1);
-console.log(teamName);

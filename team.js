@@ -1,0 +1,51 @@
+const path = window.location.pathname;
+teamUrl = path.substring(path.lastIndexOf("/") + 1);
+console.log(teamUrl);
+
+fetch("https://stephencsengo.github.io/csc1271-finalproject/teams.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const allTeamData = data.teams;
+    const teamData = allTeamData.find((team) => team.url === `/${teamUrl}`);
+    const players = teamData.players;
+    console.log(teamData);
+    console.log(teamData.players);
+    addNavItems(allTeamData);
+    addTitle(teamData.name, teamData.website);
+    addPlayers(players);
+  });
+
+function addNavItems(teams) {
+  const dropdown = document.querySelector(".dropdown");
+  for (team of teams) {
+    let li = document.createElement("li");
+    let a = document.createElement("a");
+    a.innerText = team.name;
+    a.setAttribute("href", `.${team.url}`);
+    li.appendChild(a);
+    dropdown.appendChild(li);
+  }
+}
+
+function addTitle(team, link) {
+  const titleDiv = document.querySelector(".team-view-title");
+  let h1 = document.createElement("h1");
+  let a = document.createElement("a");
+  h1.innerText = `${team} Team Information`;
+  a.innerText = `Visit The Official Team Website`;
+  a.setAttribute("href", `${link}`);
+  titleDiv.appendChild(h1);
+  titleDiv.appendChild(a);
+}
+function addPlayers(players) {
+  const table = document.querySelector("#team tbody");
+  players.forEach(function (player) {
+    const row = table.insertRow(-1);
+    const number = row.insertCell(0);
+    const name = row.insertCell(1);
+    const position = row.insertCell(2);
+    number.innerText = player.Number;
+    name.innerText = player.Name;
+    position.innerText = player.Position;
+  });
+}
