@@ -11,7 +11,7 @@ fetch("https://stephencsengo.github.io/csc1271-finalproject/teams.json")
     console.log(teamData);
     console.log(teamData.players);
     addNavItems(allTeamData);
-    addTitle(teamData.name, teamData.website);
+    addTitle(teamData.name, teamData.website, teamData.titles);
     addPlayers(players);
   });
 
@@ -27,7 +27,8 @@ function addNavItems(teams) {
   }
 }
 
-function addTitle(team, link) {
+function addTitle(team, link, titles) {
+  console.log(titles);
   const titleDiv = document.querySelector(".team-view-title");
   let h1 = document.createElement("h1");
   let a = document.createElement("a");
@@ -36,6 +37,17 @@ function addTitle(team, link) {
   a.setAttribute("href", `${link}`);
   titleDiv.appendChild(h1);
   titleDiv.appendChild(a);
+
+  if (titles !== null) {
+    let p = document.createElement("p");
+    p.setAttribute("class", "titles");
+    p.innerText = "Premier League Champions in: ";
+    for (title of titles) {
+      const year = document.createTextNode(`${title} `);
+      p.append(year);
+    }
+    titleDiv.appendChild(p);
+  }
 }
 function addPlayers(players) {
   const table = document.querySelector("#team tbody");
