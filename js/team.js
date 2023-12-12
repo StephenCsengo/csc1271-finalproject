@@ -13,6 +13,7 @@ fetch("https://stephencsengo.github.io/csc1271-finalproject/teams.json")
     addNavItems(allTeamData);
     addTitle(teamData.name, teamData.website, teamData.titles);
     addPlayers(players);
+    addAddress(teamData.stadium);
   });
 
 function addNavItems(teams) {
@@ -73,4 +74,19 @@ function addPlayers(players) {
   });
 }
 
-function addStadium(stadium) {}
+function addAddress(stadium) {
+  const address = document.querySelector("address");
+  const stadiumName = stadium.name;
+  const street = stadium.address.street;
+  const city = stadium.address.city;
+  const zip = stadium.address.zip;
+  address.append(
+    stadiumName,
+    document.createElement("br"),
+    street,
+    document.createElement("br"),
+    city,
+    document.createElement("br"),
+    zip
+  );
+}
